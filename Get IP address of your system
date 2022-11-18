@@ -1,0 +1,6 @@
+import socket 
+def fun():
+    ip= socket.gethostbyname(socket.gethostname())
+    return ip
+
+print("My IP address is : " , fun()) 

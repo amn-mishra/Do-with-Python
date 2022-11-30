@@ -1,3 +1,4 @@
+#download chrome driver : https://chromedriver.chromium.org/downloads
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import pyautogui as gui

@@ -1,0 +1,18 @@
+There are several reasons ,Some common causes include:
+ Extreme temperature changes, which can cause the glass to expand and contract, 
+ eventually leading to cracking or breaking.
+ Mechanical stress, such as a heavy object striking the glass, could cause it to break.
+ Factory defects, such as a weak spot in the glass, could cause it to break.
+
+Manual Analysis:
+In the CCTV image, it would be difficult to determine the exact cause of the back window glass breaking without further information or a closer look at the footage.
+However, a manual analysis could involve looking at the position and orientation of the car, surrounding objects, and any potential sources of impact such as nearby
+construction or other vehicles.
+
+Proposed Solution using AI/ML:
+One possible solution to identify the object, point of impact , and angle of impact could be to use computer vision algorithms and machine learning models. This could
+involve training a model on a large dataset of images and video clips to detect objects and identify the source of impact. The model could then be applied to the CCTV
+image to determine the likely cause of the glass breaking.
+In terms of feasibility , using AI / ML for this task is possible, but would require a substantial amount of training data and computational resources . Additionally ,
+accurately identifying the object, point of impact, and angle of impact from a single CCTV image can be challenging and may require additional data or a more 
+sophisticated model.

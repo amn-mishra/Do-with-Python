@@ -36,3 +36,9 @@ def get_csv_stats(csv_url):
 
   # Return statistics as a dictionary
   return csv_stats.select("distinct_values", "empty_values").rdd.map(lambda x: x.asDict()).collect()[0]
+
+'''The process_csv_stats function takes a CSV URL as input, reads the CSV file using PySpark, calculates the requested statistics, and saves them to a SQL database using the JDBC connector.
+
+The get_csv_stats function takes a CSV URL as input, retrieves the statistics from the SQL database, filters them for the given CSV file, and returns them as a dictionary.
+
+Here are the SQL queries to fetch the requested statistics:'''
